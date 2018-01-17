@@ -1,0 +1,50 @@
+.escher-container .timeSeriesContainer * {
+    box-sizing: border-box;
+}
+
+.escher-container .timeSeriesContainer {
+    float: left;
+    box-sizing: border-box;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 3px;
+    border: 1px solid #DDD;
+    width: 410px;
+}
+
+.escher-container .timeSeriesContainer .timeSeriesButton {
+    border-radius: 4px;
+    text-align: center;
+    /*vertical-align: middle;*/
+    font-size: 14px!important;
+    font-weight: 400;
+    height: 25px;
+    width: 175px;
+    padding-top: 0px;
+    margin: 1px;
+}
+
+.escher-container .timeSeriesContainer .timeSeriesButton.activated {
+    background-color: white;
+}
+
+.escher-container .timeSeriesContainer .timeSeriesButton.deactivated {
+    background-color: lightgrey;
+}
+
+.escher-container .timeSeriesContainer .timeSeriesButton.escape {
+    width: 25px;
+    float: right;
+}
+
+.escher-container .timeSeriesContainer .timeSeriesButton.play {
+    width: 49px;
+}
+
+.escher-container .timeSeriesContainer .dropDownMenu {
+}
+
+.escher-container .timeSeriesContainer .slider {
+    width: 100%;
+}
